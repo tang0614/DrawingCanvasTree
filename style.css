@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+canvas {
+    position: absolute;
+    background-color: black;
+}
+
+.generate-tree-button{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+
+    background-color: brown;
+    width: 300px;
+
+    padding: 20px 30px;
+    border-radius: 50px;
+
+    cursor: pointer;
+    border:none;
+    outline: none;
+
+    color: black;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+
+    z-index: 10;
+    overflow: hidden;
+}
